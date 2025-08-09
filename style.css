@@ -32,13 +32,13 @@ th, td {
   font-size: 22px;
 }
 
-  td img {
-    display: block;
-    width: 180px;        /* fixed width */
-    height: 120px;       /* fixed height */
-    object-fit: contain; /* keeps aspect ratio with padding inside the box */
-    margin: 0 auto;      /* center horizontally */
-  }
+td img {
+  display: block;
+  width: 180px;        /* fixed width */
+  height: 120px;       /* fixed height */
+  object-fit: contain; /* keeps aspect ratio with padding inside the box */
+  margin: 0 auto;      /* center horizontally */
+}
 
 .center {
   margin: 20px auto;
