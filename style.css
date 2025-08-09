@@ -1,0 +1,85 @@
+body {
+  background-image: url("stars.gif");
+  background-repeat: repeat;
+  color: white;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  border: 2px solid white;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 95%;
+}
+
+p, li {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 900px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 22px;
+}
+
+  td img {
+    display: block;
+    width: 180px;        /* fixed width */
+    height: 120px;       /* fixed height */
+    object-fit: contain; /* keeps aspect ratio with padding inside the box */
+    margin: 0 auto;      /* center horizontally */
+  }
+
+.center {
+  margin: 20px auto;
+}
+
+ul {
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.5);
+  margin-top: 40px;
+}
+
+a {
+  color: #FFD700;
+}
+
+@media (max-width: 768px) {
+  table, tbody, tr, td {
+    display: block;
+    width: 100%;
+  }
+
+  td {
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  td img {
+    display: block;
+    width: 180px;        /* fixed width */
+    height: 120px;       /* fixed height */
+    object-fit: contain; /* keeps aspect ratio with padding inside the box */
+    margin: 0 auto;      /* center horizontally */
+  }
+  
+  h1, p, ul, footer {
+    padding: 0 10px;
+  }
+}
